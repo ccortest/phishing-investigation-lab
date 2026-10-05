@@ -84,8 +84,10 @@ La aplicación se abrirá automáticamente en tu navegador predeterminado en la 
 
 ## 🔒 Estructura del Proyecto
 
+```text
 phishing-header-analyzer/
 ├── app.py              # Código principal de la aplicación Streamlit
 ├── requirements.txt    # Lista de librerías de Python requeridas
 ├── README.md           # Documentación del proyecto
 └── .gitignore          # Archivos excluidos del control de versiones
+```
