@@ -1,0 +1,23 @@
+Received: from mail.attacker-server.com (attacker-server.com [198.51.100.45])
+	by mx.google.com with ESMTPS id x123456789456
+	for <employee@company.com>;
+	Thu, 15 Oct 2026 09:12:00 -0500
+Received-SPF: softfail (google.com: domain of payroll@payps1-hr-portal.com does not designate 198.51.100.45 as permitted sender)
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of payroll@payps1-hr-portal.com does not designate 198.51.100.45 as permitted sender) smtp.mailfrom=payroll@payps1-hr-portal.com;
+       dkim=none;
+       dmarc=fail (p=NONE sp=NONE dis=NONE) header.from=company-payroll.com
+From: "Payroll Team" <payroll@company-payroll.com>
+To: employee@company.com
+Subject: Action required: confirm your salary details
+Date: Thu, 15 Oct 2026 09:12:00 -0500
+Return-Path: <bounce@payps1-hr-portal.com>
+Message-ID: <20261015091200.998811@attacker-server.com>
+Content-Type: text/html; charset="UTF-8"
+
+Dear employee,
+
+Please review and confirm your current salary details to ensure accurate payroll processing.
+Action is required immediately.
+
+<a href="http://malicious-phishing-site.com/verify-login?id=9872">Verify Now</a>
