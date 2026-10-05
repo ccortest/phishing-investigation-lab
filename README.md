@@ -1,6 +1,16 @@
-# 🛡️ Phishing Investigation & Email Header Analyzer
+# 🛡️️ Phishing Investigation & Email Header Analyzer
 
 Una herramienta interactiva web desarrollada en Python con Streamlit para la investigación de incidentes de correo electrónico y análisis forense de encabezados MIME. Diseñada para analistas SOC y profesionales de ciberseguridad.
+
+---
+
+## 📸 Vista Previa de la Aplicación
+
+### 📥 1. Carga de Evidencia y Configuración de API
+![Carga de Evidencia y Estado de API Key](img_carga_evidencia.png)
+
+### 🔍 2. Resumen Visual del Incidente y Análisis de Amenazas
+![Resumen Visual del Incidente](img_analisis_incidente.png)
 
 ---
 
@@ -86,8 +96,9 @@ La aplicación se abrirá automáticamente en tu navegador predeterminado en la 
 
 ```text
 phishing-header-analyzer/
-├── app.py              # Código principal de la aplicación Streamlit
-├── requirements.txt    # Lista de librerías de Python requeridas
-├── README.md           # Documentación del proyecto
-└── .gitignore          # Archivos excluidos del control de versiones
-```
+├── app.py                  # Código principal de la aplicación Streamlit
+├── requirements.txt        # Lista de librerías de Python requeridas
+├── README.md               # Documentación del proyecto
+├── img_carga_evidencia.png # Captura de la interfaz de carga y API Key
+├── img_analisis_incidente.png # Captura del panel de análisis forense
+└── .gitignore              # Archivos excluidos del control de versiones
